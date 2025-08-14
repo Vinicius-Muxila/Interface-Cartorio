@@ -1,6 +1,3 @@
-# Interface-Consulta-Faturamento
-Aplicação Python com interface gráfica (Tkinter + ttkbootstrap) para consulta de faturamento anual de empresas a partir de planilhas Excel. Permite carregar múltiplas abas, buscar empresas por nome e exibir os resultados formatados, ocultando colunas desnecessárias para uma visualização mais limpa.
-
 # Consulta de Faturamento Anual de Empresas
 
 Este projeto é uma aplicação Python com interface gráfica para consulta rápida de faturamento anual de empresas a partir de arquivos Excel.  
