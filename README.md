@@ -43,9 +43,28 @@ cd consulta-faturamento
 pip install pandas ttkbootstrap openpyxl
 
 ---
-
+````
 ## ▶️ Como executar
 python app.py
 
 
 Substitua app.py pelo nome do arquivo onde o código está salvo.
+
+---
+
+## 📂 Estrutura do projeto
+consulta-faturamento/
+│
+├── app.py          # Código principal da aplicação
+├── README.md       # Este arquivo
+└── requirements.txt (opcional)
+
+---
+
+## ⚠️ Observações
+
+A planilha deve conter uma coluna chamada CLIENTE.
+
+As duas últimas colunas do Excel serão ocultadas automaticamente na exibição da tabela.
+
+Para ler arquivos Excel, é necessário ter o pacote openpyxl instalado.
